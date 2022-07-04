@@ -1,0 +1,804 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #0A0A0A;
+}
+
+p{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+h1{
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 32px;
+}
+
+.slim-h1{
+	font-weight: 700;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+
+.element-gap{
+	margin: 180px 0;
+}
+
+
+.icon-button,
+.basic-button,
+.modal-button{
+	color: #fff;
+	height: 42px;
+	background: linear-gradient(232.45deg, #014497 -17.71%, #008183 133.24%);
+	border-radius: 12px;
+	border: none;
+	padding: 0 16px;
+}
+
+.icon-button:hover,
+.basic-button:hover{
+	color: #225281;
+	background: #fff;
+	box-shadow: 0px 1px 24px -2px #6264665E;
+}
+
+
+.modal-button{
+	font-size: 18px;
+	font-weight: 700;
+	width: 100%;
+}
+
+.modal-button:hover{
+	box-shadow: 0px 1px 24px -2px #6264665E;
+}
+
+
+.costum-modal-content{
+	border-radius: 18px;
+	border: none;
+	width: 422px;
+	left: 39px;
+}
+
+.costum-modal-content label{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.costum-modal-content input{
+	border-radius: 12px;
+	background: #F8F8F8;
+}
+
+.costum-modal-content h4{
+	font-weight: 600;
+	color: #606060;
+}
+
+.color-dark-orange{
+	color: #FAAD01;
+}
+.color-light-orange{
+	color: #FAAD01;
+}
+.color-original-orange{
+	color: #FAAD01;
+}
+.color-main{
+	color: #068BE9;
+}
+/*------------------------------body--------------------------*/
+
+
+
+
+
+
+
+#navbar{
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0px 25px 21px -8px #D8D8D860;
+}
+
+#navbar a{
+	font-weight: 600;
+}
+
+#navbar .dropdown-toggle::after{
+	display: none;
+}
+
+
+#navbar .navbar-horizontal-line{
+	height: 2px;
+	width: 100%;
+	background: linear-gradient(0.25turn, #fff, #9B9B9B, #fff);
+}
+
+
+#navbar .costum-dropdown-menu{
+	border-radius: 0;
+	left: 4px;
+	top: 46px;
+}
+/*-----------------------------navbar code--------------------------*/
+
+
+
+
+
+
+
+
+
+#hero{
+	height: 950px;
+	margin-top: 108px;
+	background-image: url("../images/Pictures/Hero Section/Hero Section Background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 140px;
+}
+
+
+#hero button.icon-button img{
+	filter: brightness(100);
+}
+
+#hero button.icon-button:hover img{
+	filter: none;
+}
+
+#hero .see-more-button{
+	margin-top: 160px;
+}
+
+#hero .see-more-button img{
+	width: 120px;
+}
+/*-----------------------------hero code--------------------------*/
+
+
+
+
+
+
+
+
+
+#basicCards .costum-card{
+	border-radius: 24px;
+	padding: 24px;
+	background: linear-gradient(#FFFFFF, #F6F6F6);
+	box-shadow: 0px 24px 11px -8px #AFAFAF25;
+}
+
+#basicCards .card h2{
+	font-weight: 600;
+}
+
+#basicCards .card p{
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#basicCards .card img{
+	height: 65px;
+}
+
+#basicCards .card .line-img{
+	height: 3px;
+	width: 80px;
+}
+/*-----------------------------basic cards code--------------------------*/
+
+
+
+
+
+
+
+
+#carousel .costum-carousel-inner{
+	border-radius: 30px;
+}
+
+#carousel .costum-carousel-item{
+	height: 740px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+#carousel .carousel-item-1{
+	background-image: url("../images/Pictures/Event pictures-carousell/akash-mehta-summit.jpg");
+}
+
+
+#carousel .carousel-item-2{
+	background-image: url("../images/Pictures/Event pictures-carousell/hr-directors.jpg");
+}
+
+#carousel .carousel-item-3{
+	background-image: url("../images/Pictures/Event pictures-carousell/hr-discussion.jpg");
+}
+
+#carousel .carousel-item-4{
+	background-image: url("../images/Pictures/Event pictures-carousell/hr-entry-exit.jpg");
+}
+
+#carousel .carousel-item-5{
+	background-image: url("../images/Pictures/Event pictures-carousell/marketing-macedonia.jpg");
+}
+
+#carousel .carousel-item-6{
+	background-image: url("../images/Pictures/Event pictures-carousell/marketing-strategy.jpg");
+}
+
+#carousel .carousel-item-7{
+	background-image: url("../images/Pictures/Event pictures-carousell/pr-bar.jpg");
+}
+
+#carousel .carousel-item-8{
+	background-image: url("../images/Pictures/Event pictures-carousell/pr-kosta-petrov.jpg");
+}
+
+#carousel .carousel-item-9{
+	background-image: url("../images/Pictures/Event pictures-carousell/trajko-dzikov.jpg");
+}
+
+
+#carousel .carousel-control-prev img,
+#carousel .carousel-control-next img{
+	height: 100px;
+}
+#carousel .carousel-control-next{
+	right: 70px;
+	width: 60px;
+}
+
+#carousel .carousel-control-prev{
+	left: 70px;
+	width: 50px;
+}
+
+
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+	z-index: -1;
+}
+
+#carousel .costum-carousel-item .event-date{
+	color: #9B9B9B;
+}
+/*-----------------------------carousel code--------------------------*/
+
+
+
+
+
+
+
+
+
+#eventCards .costum-event-card{
+	padding: 24px 18px;
+	border: 1px solid #D8D8D8;
+ 	border-radius: 12px;
+	box-shadow: 0px 24px 21px -8px #AFAFAF30;
+	padding-bottom: 80px;
+}
+
+#eventCards .costum-event-card:hover{
+	box-shadow: 0px 1px 24px -2px #62646637;   
+	cursor: pointer;              
+}
+
+#eventCards h3{
+	font-weight: 800;
+}
+
+#eventCards h5{
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+
+#eventCards .event-hr{
+	background: #D8D8D8;
+	height: 2px;
+}
+
+#eventCards .costum-event-card-date p{
+	font-weight: 500;
+	margin-bottom: 0;
+	color: #606060;
+}
+
+
+#eventCards .costum-event-card-speakers p{
+	font-weight: 600;
+	color: #606060;
+}
+
+#eventCards .costum-event-card-speakers h5{
+	color: #0A0A0A;
+}
+
+
+
+
+#eventCards .costum-event-modal{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#eventCards .costum-event-modal-content{
+	height: 95vh;
+	border: none;
+	border-radius: 35px;
+}
+
+
+#eventCards .event-modal-speakers h5{
+	color: #606060;
+}
+
+#eventCards .event-modal-speakers p{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+#eventCards .costum-event-card-agenda h5{
+	color: #606060;
+}
+
+#eventCards .costum-event-card-agenda ul{
+	padding-left: 30px;
+	line-height: 25px;
+}
+
+#eventCards .costum-event-card-agenda li p{
+	margin: 0;
+	font-weight: 500;
+}
+
+
+#eventCards .costum-event-modal .event-modal-button-div p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #9B9B9B;
+}
+
+
+#eventCards #modalSeption{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+
+#eventCards .basic-button-modal > button{
+	position: relative;
+	z-index: 2;
+	bottom: 80px;
+	right: 30px;
+}
+/*-----------------------------event cards code--------------------------*/
+
+
+
+
+
+#fullScreenImageRow img{
+	width: 100%;
+}
+/*-----------------------------imageRow code--------------------------*/
+
+
+
+
+
+
+
+
+
+#accordionRow .costum-card-header{
+	text-decoration: none;
+	color: #0A0A0A;
+	box-shadow: none;
+}
+
+#accordionRow .costum-card{
+	background: #F8F8F8;
+	transition: all 0.7s;
+	border-radius: 12px;
+	border: none;
+}
+
+#accordionRow .costum-card:hover{
+	background: #fff;
+	cursor: pointer;
+	box-shadow: 0px 1px 24px -2px #62646637;
+}
+
+#accordionRow .costum-card h3{
+	font-size: 26px;
+}
+
+#accordionRow .costum-card p{
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 24px;
+	padding-right: 100px;
+}
+/*-----------------------------accordionRow code--------------------------*/
+
+
+
+
+
+
+
+
+
+
+#sponsors .sponsors-content img{
+	height: 40px;
+}
+
+
+#sponsors .modal-toggler h5{
+	font-weight: 600;
+	color: #606060;
+	cursor: pointer;
+}
+
+
+#sponsors #sponsorsModal textarea{
+	border-radius: 12px;
+	box-shadow: none;
+	resize: none;
+	height: 150px;
+	background: #F8F8F8;
+}
+
+#sponsors #sponsorsModal textarea:focus{
+	background: #fff;
+}
+/*-----------------------------sponsors code--------------------------*/
+
+
+
+
+
+
+
+
+#guests .costum-card{
+	height: 472px;
+	border-radius: 24px;
+	border: 3px solid #E8E8E8;
+	background: linear-gradient(#F8F8F8, #fff);
+	padding: 8px 12px;
+	box-shadow: 27px 19px 28px 0 #5DA0EF18;
+}
+
+#guests .costum-card h5{
+	color: #404040;
+}
+
+#guests .costum-card h6{
+	color: #9B9B9B;
+}
+
+#guests .costum-card .logo-img{
+	height: 50px;
+}
+
+#guests .costum-card .modal-button{
+	width: 160px;
+	height: 35px;
+}
+/*-----------------------------guests code--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+#footer p{
+	color: #808080;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+#footer .socials-div{
+	padding-right: 115px;
+}
+
+#footer .footer-hr{
+	height: 2px;
+	background: linear-gradient(to right, #fff, #9B9B9B 50%, #fff);
+}
+
+#footer a{
+	text-decoration: none;
+}
+
+#footer .footer-list h5{
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#footer .footer-list ul li{
+	margin-bottom: 14px;
+}
+
+#footer .footer-list ul li a{
+	color: #808080;
+	font-weight: 500;
+}
+
+#footer .footer-list ul li a:hover{
+	color: #068BE9;
+}
+
+
+#footer .footer-col{
+	position: relative;
+}
+
+#footer .footer-col .arrow-top{
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	height: 50px;
+}
+
+
+#footer .footer-bottom p{
+	color: #9B9B9B;
+}
+
+
+#footer .footer-dropdown .dropdown-menu a,
+#footer .footer-dropdown button{
+	font-weight: 500;
+	color: #9B9B9B;
+}
+/*-----------------------------footer code--------------------------*/
+
+/*===================================DESKTOP==================================*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+	.element-gap{
+		margin: 96px 0px;
+	}
+
+	h1{
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+
+	h2{
+		font-size: 20px;
+	}
+
+	h3{
+		font-size: 18px;
+	}
+
+	p{
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	
+	
+	.costum-modal-content{
+		border-radius: 18px;
+		border: none;
+		width: 100%;
+		left: 0px;
+	}
+/*-----------------------------body--------------------------*/
+
+
+
+
+
+	#navbar .costum-dropdown-menu{
+		top: 42px;
+		left: -4px;
+		border: 0;
+	}
+/*-----------------------------navbar--------------------------*/
+
+
+
+
+
+	#hero{
+		margin-top: 30px;
+		background-position: center;
+	}
+
+	#hero .hero-image{
+		width: 100%;
+	}
+/*-----------------------------hero code--------------------------*/
+	
+
+
+
+
+	#basicCards .costum-card{
+		padding: 12px;
+	}
+
+	#basicCards .costum-card img{
+		height: 40px;
+	}
+
+	#basicCards .costum-card h2{
+		font-size: 17px;
+		font-weight: 700;
+	}
+
+	#basicCards .card p{
+		font-size: 14px;
+		line-height: 18px;
+	}
+/*-----------------------------basic cards code--------------------------*/
+
+
+
+
+
+	
+
+
+
+	#carousel .costum-carousel-inner{
+		border-radius: 12px;
+	}
+
+	#carousel .costum-carousel-item{
+		height: 640px;
+	}
+
+	#carousel .costum-carousel-item h2{
+		font-weight: 500;
+	}
+
+	#carousel .costum-carousel-item h4{
+		font-size: 16px;
+	}
+
+	#carousel .costum-carousel-item h5{
+		font-size: 14px;
+	}
+
+	#carousel .carousel-control-prev img,
+	#carousel .carousel-control-next img{
+		height: 80px;
+		filter: brightness(100);
+	}
+
+	#carousel .carousel-control-next{
+		right: 10px;
+	}
+
+	#carousel .carousel-control-prev{
+		left: 10px;
+	}
+
+	#carousel .carousel-item-4{
+		background-position: -200px 0;
+	}
+
+
+	#carousel .carousel-item-6{
+		background-position: -150px 0;
+	}
+
+	#carousel .carousel-item-8{
+		background-position: -150px 0;
+	}
+/*-----------------------------carousel code--------------------------*/
+
+
+
+
+
+
+#eventCards .costum-event-card-speakers h5{
+	font-size: 16px;
+}
+/*-----------------------------event cards code--------------------------*/
+
+
+
+
+
+
+#accordionRow .costum-card h3{
+	font-size: 18px;
+	width: 80%;
+}
+
+#accordionRow .costum-card p{
+	font-size: 18px;
+	padding-right: 0;
+}
+/*-----------------------------accordionRow code--------------------------*/
+
+
+
+
+
+	#sponsors .sponsors-content img{
+		height: 30px;
+	}
+
+
+	#sponsors .modal-toggler h5{
+		font-size: 16px;
+	}
+/*-----------------------------sponsors code--------------------------*/
+
+
+
+
+
+
+	#eventCards .costum-event-modal-content{
+	height: 1050px;
+	border: none;
+	border-radius: 35px;
+}
+/*-----------------------------event cards code--------------------------*/
+
+
+}
+/*===================================MOBILE==================================*/

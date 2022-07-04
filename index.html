@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/bed0c41851.js" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/ulg/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>	
+	<div class="container-fluid">
+		<div class="row fixed-top" id="navbar">
+			<div class="col-lg-10 offset-lg-1">
+				<nav class="navbar navbar-expand-lg navbar-light p-1">
+				  <a class="pl-2 d-lg-none" href="#"><img src="images/Logos/Creative Hub Logo variations/Mobile logo navbar.svg" /></a>
+
+				  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  	<img src="images/Logos/Creative Hub Logo variations/Hamburger_menu.png" />
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <a class="nav-link text-dark pl-0" href="#"><img src="images/Icons_Vectors/Navbar icons/Calling-navbar.svg" /> + 389 71 214 849</a>
+
+				    <div class="nav-item dropdown ml-auto">
+				       <a class="nav-link dropdown-toggle text-dark pl-1 pr-0" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Кампуси 
+				          <img class="pl-1 pb-1" src="images/Icons_Vectors/Navbar icons/dropdown-navbar.svg" />
+						</a>
+
+				       <div class="dropdown-menu costum-dropdown-menu">
+				          <a class="dropdown-item" href="#">Кампус 1</a>
+				          <a class="dropdown-item" href="#">Кампус 2</a>
+				          <a class="dropdown-item" href="#">Кампус 3</a>
+				       </div>
+				    </div>
+				  </div>
+				</nav>
+
+				<div class="mt-1 navbar-horizontal-line d-lg-block d-none"></div>
+
+
+				<div class="my-3 px-1 d-lg-block d-none">
+					<a href="#"><img src="images/Logos/Creative Hub Logo variations/CreativeHub_logo.png" /></a>
+				</div>
+			</div>
+		</div>
+<!------------------------------- navbar section ------------------------------------->
+
+
+
+
+
+		<div class="row" id="hero">
+			<div class="col-12 text-center">
+				<img class="hero-image" src="images/Pictures/Hero Section/Hero Section Meet ups element.png" />
+
+				<div class="my-5">
+					<h3 class="mb-4">Дојди на meet up, <br/> <strong>запознај се со луѓе од индустријата.</strong></h3>
+
+					<p>За да ја запознаеш твојата идна професија, или за да слушнеш некоја новост од истата, те <br/> покануваме на некој од нашите <strong>industry meet ups</strong>.</p>
+
+					<p>Претплати се и редовно добивај покани за настаните што ќе следат.</p>
+				</div>
+
+
+				<button class="my-5 icon-button" type="button" data-toggle="modal" data-target="#heroModal">
+					<img class="mr-2" src="images/Icons_Vectors/Button icons/Button subscribe message icon_hover state.svg" />
+					Претплати се
+				</button>
+
+
+				<div class="modal fade" id="heroModal">
+				  	<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content costum-modal-content py-3">
+							<div class="modal-body">
+								<h4>Претплати се за редовно да добиваш покани за настани</h4>
+
+								<form class="text-left mt-3 mb-4">
+									<div class="form-group">
+										<label for="name">Име и презиме</label>
+										<input type="text" placeholder="Внеси име и презиме" name="" id="name" class="form-control shadow-none" />
+									</div>
+
+									<div class="form-group">
+										<label for="email">E-mail</label>
+										<input type="email" placeholder="Внеси е-mail" name="" id="email" class="form-control shadow-none" />
+									</div>
+									
+									<div class="form-group">
+										<label for="telephone">Телефонски број</label>
+										<input type="number" placeholder="Внеси телефонски број" name="" id="telephone" class="form-control shadow-none" />
+									</div>
+								</form>
+
+								<button type="submit" class="modal-button">Претплати се</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="see-more-button">
+					<a href="#eventCards"><img src="images/Icons_Vectors/See-more.svg" /></a>
+				</div>
+			</div>
+		</div>
+<!------------------------------- hero section ------------------------------------->
+
+
+
+
+
+
+		<div class="row element-gap" id="basicCards">
+			<div class="col-lg-10 offset-lg-1">
+				<h1>ЗОШТО Е СУПЕР ДА ПРИСУСТВУВАШ</h1>
+
+				<div class="row">
+					<div class="col-lg-3 col-6 px-2">
+						<div class="mb-lg-0 mb-3 card costum-card">
+						    <div class="text-center">
+						      <img src="images/Icons_Vectors/Generic cards/learn-new.svg" />
+						      <h2 class="mt-4">Ќе научиш нешто ново</h2>
+						      <img class="mt-3 mb-4 line-img" src="images/Icons_Vectors/Generic cards/Line px.png" />
+						      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus etiam faucibus cursus viverra. Dignissim lacus.</p>
+						    </div>
+						 </div>
+					</div>
+				  
+					<div class="col-lg-3 col-6 px-2">
+					  <div class="mb-lg-0 mb-3 card costum-card">
+					    <div class="text-center">
+					      <img src="images/Icons_Vectors/Generic cards/inspiration.svg" />
+					      <h2 class="px-2 mt-4">Ќе се инспирираш</h2>
+					      <img class="mt-3 mb-4 line-img" src="images/Icons_Vectors/Generic cards/Line px.png" />
+					      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus etiam faucibus cursus viverra. Dignissim lacus.</p>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="col-lg-3 col-6 px-2">
+					  <div class="card costum-card">
+					    <div class="text-center">
+					      <img src="images/Icons_Vectors/Generic cards/rocket-trends.svg" />
+					      <h2 class="mt-4">Ќе бидеш во тек со трендовите</h2>
+					      <img class="mt-3 mb-4 line-img" src="images/Icons_Vectors/Generic cards/Line px.png" />
+					      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus etiam faucibus cursus viverra. Dignissim lacus.</p>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="col-lg-3 col-6 px-2">
+					  <div class="card costum-card">
+					    <div class="text-center">
+					      <img src="images/Icons_Vectors/Generic cards/networking.svg" />
+					      <h2 class="mt-4">Ќе запознаеш луѓе од сферата</h2>
+					      <img class="mt-3 mb-4 line-img" src="images/Icons_Vectors/Generic cards/Line px.png" />
+					      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus etiam faucibus cursus viverra. Dignissim lacus.</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- basic cards section ------------------------------------->
+
+
+
+
+
+		<div class="row" id="carousel">
+			<div class="col-lg-10 offset-lg-1">
+				<h1 class="px-2">КАКО СИ ПОМИНАВМЕ НА ПРЕТХОДНИТЕ НАСТАНИ</h1>
+			</div>
+
+			<div class="col-12">
+				<div id="costumCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="carousel-inner costum-carousel-inner">
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item active carousel-item-1">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Акаш Мехта</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Artificial Influence: the new DNA of the Digital Marketing</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Mariot Hotel</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5 class=""><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-2">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>HR директори</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">HR Сабота</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Double tree by Hilton</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />HR</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-3">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Панел дискусија</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Што сите мислат дека се случува во HR, а што всушност се случува во HR</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Кинотека на Македонија</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />HR</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-4">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>HR Дискусија</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Entry & Exit Interview</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Double tree by Hilton</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />HR</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-5">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Панел дискусија</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Иднината на Македонскиот Маркетинг</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Public Room</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-6">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>AEGEE</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Developing Effective Marketing Strategy</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, MKC</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-7">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Панел дискусија</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">PR BAR</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Public Room</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-8">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Коста Петров</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">PR Strategies</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, Public Room</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+
+
+							<div class="p-lg-4 p-2 carousel-item costum-carousel-item carousel-item-9">
+								<div class="overlay"></div>
+
+								<div class="d-lg-flex ml-2 text-white">
+									<h2>Трајко Џиков</h2>
+									<h4 class="d-flex align-items-center ml-lg-4 ml-0 mb-3">Копирајтинг: Се што треба да знаете</h4>
+								</div>
+
+								<div class="d-lg-flex ml-2 event-date">
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Location.svg" />Skopje, MKC</h5>
+									<h5 class="mx-lg-4 mr-4 float-left"><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/Time.svg" />13.09.2019</h5>
+									<h5><img class="mb-1 mr-2" src="images/Icons_Vectors/Events Picture Carousell/topic.svg" />Digital Marketing</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+					<a class="carousel-control-prev" href="#costumCarousel" data-slide="prev">
+						<img src="images/Icons_Vectors/Accordion and Carousel icons/Carrousel-arrow-left.svg" />
+					</a>
+
+					<a class="carousel-control-next" href="#costumCarousel" data-slide="next">
+						<img src="images/Icons_Vectors/Accordion and Carousel icons/Carrousel-arrow-right.svg" />
+					</a>
+				</div>
+			</div>
+		</div>
+<!------------------------------- carousel section ------------------------------------->
+
+
+
+
+
+
+		<div class="row element-gap" id="eventCards">
+			<div class="col-lg-10 offset-lg-1">
+				<h1>НАСТАНИ КОИ СЛЕДУВААТ</h1>
+
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="costum-event-card" data-toggle="modal" data-target="#eventCardsModal1">
+						    <h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+						    <div class="costum-event-card-date">
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+						    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+						    </div>
+
+						    <div class="my-4 event-hr"></div>
+
+						    <div class="costum-event-card-speakers">
+						    	<p class="mb-1">Спикери:</p>
+						    	<h5 class="pr-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</h5>
+						    </div>
+						</div>
+
+
+						<div class="basic-button-modal">
+							<button class="basic-button float-right mt-3" type="button" data-toggle="modal" data-target="#eventButtonModal">Резервирај место</button>
+
+							<div class="modal fade" id="eventButtonModal">
+							  	<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content costum-modal-content py-3">
+										<div class="modal-body">
+											<h4 class="text-center">Пријава за Meet up</h4>
+
+											<form class="text-left mt-3 mb-4">
+												<div class="form-group">
+													<label for="name">Име и презиме</label>
+													<input type="text" placeholder="Внеси име и презиме" name="" id="name" class="form-control shadow-none" />
+												</div>
+
+												<div class="form-group">
+													<label for="email">E-mail</label>
+													<input type="email" placeholder="Внеси е-mail" name="" id="email" class="form-control shadow-none" />
+												</div>
+												
+												<div class="form-group">
+													<label for="telephone">Телефонски број</label>
+													<input type="number" placeholder="Внеси телефонски број" name="" id="telephone" class="form-control shadow-none" />
+												</div>
+											</form>
+
+											<button type="submit" class="modal-button">Резервирај место</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+ 						
+
+
+
+						<div class="modal costum-event-modal fade" id="eventCardsModal1">
+						  	<div class="modal-dialog modal-dialog-centered modal-xl ">
+								<div class="modal-content p-lg-5 p-2 costum-event-modal-content">
+									<div class="modal-body">
+										<div class="d-flex justify-content-between">
+											<h5 class="color-dark-orange">НАСТАН:</h5>
+											<button type="button" class="close" data-dismiss="modal">
+									        	<i class="fa-solid fa-xmark"></i>
+									        </button>
+										</div>
+
+										<h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+										<div class="costum-event-card-date">
+									    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+									    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+									    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+									    </div>
+
+									    <div class="my-4 event-hr"></div>
+
+
+									    <div class="costum-event-card-agenda">
+									    	<h5 class="mb-3">Агенда:</h5>
+									    	<ul>
+									    		<li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+									    		<li><p>Molestie amet quam facilisi in tempor feugiat et consectetur.</p></li>
+									    		<li><p>Auctor tellus consectetur pellentesque volutpat in eget leo amet in.</p></li>
+									    		<li><p>Pellentesque non, elementum sem sapien, mattis egestas commodo, ut rhoncus. Tristique rhoncus, sed elementum libero. Euismod lobortis sed pulvinar mattis imperdiet semper bibendum sit tellus. Sit commodo.</p></li>
+									    	</ul>
+									    </div>
+
+									    <div class="my-4 event-hr"></div>
+
+
+									    <div class="event-modal-speakers">
+									    	<h5 class="mb-2">Спикери:</h5>
+									    	<p class="pr-4 mb-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</p>
+									    	<div>
+									    		<img src="images/Pictures/Event Speakers/Guest thumbnail_ Maja.png" />
+									    		<img class="mx-3" src="images/Pictures/Event Speakers/Guest thumbnail_ Ile.png" />
+									    		<img src="images/Pictures/Event Speakers/Guest thumbnail_ Martin.png" />
+									    	</div>
+									    </div>
+
+
+									    <div class="text-right event-modal-button-div">
+									    	<button type="submit" class="my-3 basic-button" data-toggle="modal" data-target="#modalSeption" >Резервирај го своето место</button>
+
+									    	<p>Поради ограничен просторен капацитет, бројот на посетители е ограничен.<br/>Ви благодариме на разбирањето.</p>
+
+											<div class="modal fade" id="modalSeption">
+											  	<div class="modal-dialog modal-dialog-centered">
+													<div class="modal-content costum-modal-content py-3">
+														<div class="modal-body">
+															<h4 class="text-center">Пријава за Meet up</h4>
+
+															<form class="text-left mt-3 mb-4">
+																<div class="form-group">
+																	<label for="name">Име и презиме</label>
+																	<input type="text" placeholder="Внеси име и презиме" name="" id="name" class="form-control shadow-none" />
+																</div>
+
+																<div class="form-group">
+																	<label for="email">E-mail</label>
+																	<input type="email" placeholder="Внеси е-mail" name="" id="email" class="form-control shadow-none" />
+																</div>
+																
+																<div class="form-group">
+																	<label for="telephone">Телефонски број</label>
+																	<input type="number" placeholder="Внеси телефонски број" name="" id="telephone" class="form-control shadow-none" />
+																</div>
+															</form>
+
+															<button type="submit" class="modal-button">Резервирај место</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+					<div class="col-lg-4">
+						<div class="costum-event-card" data-toggle="modal" data-target="#eventCardsModal1">
+						    <h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+						    <div class="costum-event-card-date">
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+						    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+						    </div>
+
+						    <div class="my-4 event-hr"></div>
+
+						    <div class="costum-event-card-speakers">
+						    	<p class="mb-1">Спикери:</p>
+						    	<h5 class="pr-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</h5>
+						    </div>
+						</div>
+
+
+						<div class="basic-button-modal">
+							<button class="basic-button float-right mt-3" type="button" data-toggle="modal" data-target="#eventButtonModal">Резервирај место</button>
+						</div>
+ 					</div>
+
+
+					<div class="col-lg-4">
+						<div class="costum-event-card" data-toggle="modal" data-target="#eventCardsModal1">
+						    <h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+						    <div class="costum-event-card-date">
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+						    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+						    </div>
+
+						    <div class="my-4 event-hr"></div>
+
+						    <div class="costum-event-card-speakers">
+						    	<p class="mb-1">Спикери:</p>
+						    	<h5 class="pr-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</h5>
+						    </div>
+						</div>
+
+
+						<div class="basic-button-modal">
+							<button class="basic-button float-right mt-3" type="button" data-toggle="modal" data-target="#eventButtonModal">Резервирај место</button>
+						</div>
+ 					</div>
+
+
+ 					<div class="col-lg-4">
+						<div class="costum-event-card" data-toggle="modal" data-target="#eventCardsModal1">
+						    <h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+						    <div class="costum-event-card-date">
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+						    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+						    </div>
+
+						    <div class="my-4 event-hr"></div>
+
+						    <div class="costum-event-card-speakers">
+						    	<p class="mb-1">Спикери:</p>
+						    	<h5 class="pr-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</h5>
+						    </div>
+						</div>
+
+
+						<div class="basic-button-modal">
+							<button class="basic-button float-right mt-3" type="button" data-toggle="modal" data-target="#eventButtonModal">Резервирај место</button>
+						</div>
+ 					</div>
+
+
+ 					<div class="col-lg-4">
+						<div class="costum-event-card" data-toggle="modal" data-target="#eventCardsModal1">
+						    <h3 class="mb-4">КАКО ДА БИДЕШ ОДЛИЧЕН ГРАФИЧКИ ДИЗАЈНЕР</h3>
+
+						    <div class="costum-event-card-date">
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/location.svg" />Скопје, Creative Hub's Offices</p>
+
+						    	<p class="my-3"><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/time.svg" />13.09.2022 | 18:00</p>
+
+						    	<p><img class="mb-1 mr-2" src="images/Icons_Vectors/Event Cards/topic.svg" />Графички Дизајн</p>
+						    </div>
+
+						    <div class="my-4 event-hr"></div>
+
+						    <div class="costum-event-card-speakers">
+						    	<p class="mb-1">Спикери:</p>
+						    	<h5 class="pr-4">Маја Цветкова, Иле Петрушев и Мартин Трајановски</h5>
+						    </div>
+						</div>
+
+
+						<div class="basic-button-modal">
+							<button class="basic-button float-right mt-3" type="button" data-toggle="modal" data-target="#eventButtonModal">Резервирај место</button>
+						</div>
+ 					</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- event cards section ------------------------------------->
+
+
+
+
+
+
+		<div class="row d-lg-block d-none" id="fullScreenImageRow">
+			<div class="col-12 px-0">
+				<img src="images/Pictures/Other/Full screen desktop element.svg" />
+			</div>
+		</div>
+<!------------------------------- big image section ------------------------------------->
+
+
+
+		
+
+		<div class="row element-gap" id="accordionRow">
+			<div class="col-lg-10 offset-lg-1">
+				<h1>ЧЕСТО ПОСТАВУВАНИ ПРАШАЊА</h1>
+				
+				<div class="accordion" id="accordionDiv">
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseOne">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseOne" class="collapse">
+				      <div class="card-body px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseTwo">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseTwo" class="collapse">
+				      <div class="card-body px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseThree">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseThree" class="collapse">
+				      <div class="card-body px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseFour">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseFour" class="collapse">
+				      <div class="card-body px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseFive">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseFive" class="collapse">
+				      <div class="card-body px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="card mb-4 p-3 costum-card" data-toggle="collapse" data-target="#collapseSix">
+				  	<div class="costum-card-header p-lg-3 px-0"  >
+				  		<h3 class="float-left m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam?</h3>
+				  		<img class="float-right mt-2" src="images/Icons_Vectors/Accordion and Carousel icons/FAQ-accordion-default.svg" />
+				  	</div>
+				    
+				    <div id="collapseSix" class="collapse">
+				      <div class="card-body py-2 px-lg-3 px-0">
+				        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam blandit ac facilisis magna in ut suspendisse quam. Sed lectus tellus gravida pretium in nulla. Eu amet, eros, sit arcu lobortis sit dictum facilisis. Vitae maecenas blandit dolor ut a lacus arcu. Diam netus augue sociis aliquam. Ornare fringilla massa urna mi scelerisque integer fames malesuada adipiscing. Cras nullam velit, quis amet amet, et mattis pellentesque. Diam senectus dignissim sed viverra. Nunc, malesuada sed sed molestie. Euismod turpis faucibus faucibus molestie justo, sagittis egestas fringilla. Ut sed mi sem commodo enim pharetra massa nibh aliquet. Cras mollis ipsum mi ac varius. Posuere et at aliquam.</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- accordion section ------------------------------------->
+
+
+
+
+
+		<div class="row" id="sponsors">
+			<div class="col-lg-10 offset-lg-1">
+				<h1 class="slim-h1">Спонзори</h1>
+
+				<div class="sponsors-content d-none d-lg-flex justify-content-between">
+					<img src="images/Logos/Sponsors/NLB banka 2.png" />
+					<img src="images/Logos/Sponsors/sn-webLogo 2.png" />
+					<img src="images/Logos/Sponsors/mako market.png" />
+					<img src="images/Logos/Sponsors/Asset 1 1.png" />
+					<img src="images/Logos/Sponsors/Tivus logo.png" />
+					<img src="images/Logos/Sponsors/bizzbee_logo-1 2.png" />
+					<img src="images/Logos/Sponsors/a1 LOGO.png" />
+					<img src="images/Logos/Sponsors/Pageland 1.png" />
+				</div>
+
+
+				<div class="sponsors-content d-lg-none justify-content-between">
+					<div class="d-flex justify-content-between">
+						<img src="images/Logos/Sponsors/NLB banka 2.png" />
+						<img src="images/Logos/Sponsors/sn-webLogo 2.png" />
+					</div>
+					
+					<div class="d-flex justify-content-between my-4">
+						<img src="images/Logos/Sponsors/mako market.png" />
+						<img src="images/Logos/Sponsors/Asset 1 1.png" />
+						<img src="images/Logos/Sponsors/Tivus logo.png" />
+					</div>
+					
+					<div class="d-flex justify-content-between">
+						<img src="images/Logos/Sponsors/bizzbee_logo-1 2.png" />
+						<img src="images/Logos/Sponsors/a1 LOGO.png" />
+						<img src="images/Logos/Sponsors/Pageland 1.png" />
+					</div>
+				</div>
+
+				<div class="mt-4 py-2 modal-toggler" data-target="#sponsorsModal" data-toggle="modal">
+					<h5>Сакаш да ни бидеш спонзор? <u class="color-main">Пиши ни.</u></h5>
+				</div>
+
+				<div class="modal fade" id="sponsorsModal">
+				  	<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content costum-modal-content py-3">
+							<div class="modal-body">
+								<h4 class="text-center">Сакаш да ни бидеш спонзор? Пиши ни <i class="fa-regular fa-hand-point-down"></i></h4>
+
+								<form class="text-left mt-3 mb-4">
+									<div class="form-group">
+										<label>Вашата порака</label>
+										<textarea class="form-control" placeholder="Внеси порака"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label for="email">E-mail</label>
+										<input type="email" placeholder="Внеси е-mail" name="" id="email" class="form-control shadow-none" />
+									</div>
+									
+									<div class="form-group">
+										<label for="telephone">Телефонски број</label>
+										<input type="number" placeholder="Внеси телефонски број" name="" id="telephone" class="form-control shadow-none" />
+									</div>
+								</form>
+
+								<button type="submit" class="modal-button">Испрати</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- sponsors section ------------------------------------->
+
+
+
+
+
+
+		
+
+		<div class="row element-gap" id="guests">
+			<div class="col-lg-10 offset-lg-1">
+				<h1 class="slim-h1">Досегашни гости</h1>
+
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="card costum-card">
+						  <img src="images/Pictures/Guests card/Guest Card Picture_ Akash.png" class="card-img-top" />
+						  <div class="card-body p-0">
+						    <h5 class="mt-2 mb-1 font-weight-bold">Akash Mehta</h5>
+						    <h6>Global Digital Manager, Dior <br/> CEO & Co-founder, Fable & Mane</h6>
+						  </div>
+
+						  <img class="logo-img mr-auto" src="images/Logos/Visitors/Dior.svg">
+						</div>
+					</div>
+
+					<div class="col-lg-3 m-lg-0 my-4">
+						<div class="card costum-card">
+						  <img src="images/Pictures/Guests card/Guest Card Picture_ Alessandro.png" class="card-img-top" />
+						  <div class="card-body p-0">
+						    <h5 class="mt-2 mb-1 font-weight-bold">Alessandro Capoccia</h5>
+						    <h6>Photographer, Conde Nast Traveler</h6>
+						  </div>
+
+						  <img class="logo-img mr-auto" src="images/Logos/Visitors/Traveler.png">
+						</div>
+					</div>
+
+					<div class="col-lg-3 m-lg-0 mb-4">
+						<div class="card costum-card">
+						  <img src="images/Pictures/Guests card/Guest Card Picture_ Maria.png" class="card-img-top" />
+						  <div class="card-body p-0">
+						    <h5 class="mt-2 mb-1 font-weight-bold">Maria Belitskaya</h5>
+						    <h6>Senior Creative Project Manager, <br/> The North Face</h6>
+						  </div>
+
+						  <img class="logo-img mr-auto" src="images/Logos/Visitors/The North Face.png">
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="card costum-card">
+						  <img src="images/Pictures/Guests card/Guest Card Picture_ Your name Here.png" class="card-img-top" />
+						  <div class="card-body p-0">
+						    <h5 class="mt-2 mb-1 font-weight-bold">Твоето име тука?</h5>
+						    <h6>Сметаш дека можеш да ни бидеш гостин на некоја следна сесија?</h6>
+						  </div>
+
+						  <button class="mb-2 modal-button" data-toggle="modal" data-target="#guestsModal">Пиши ни!</button>
+						</div>
+
+
+						<div class="modal fade" id="guestsModal">
+						  	<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content costum-modal-content py-3">
+									<div class="modal-body">
+										<h4 class="text-center">Биди ни гостин на meet up</h4>
+
+										<form class="text-left mt-3 mb-4">
+											<div class="form-group">
+												<label for="name">Име и презиме</label>
+												<input type="text" placeholder="Внеси име и презиме" name="" id="name" class="form-control shadow-none" />
+											</div>
+
+											<div class="form-group">
+												<label for="work">Занимање</label>
+												<input type="text" placeholder="Внеси занимање" name="" id="work" class="form-control shadow-none" />
+											</div>
+
+											<div class="form-group">
+												<label for="linkedin">LinkedIn Profile Link</label>
+												<input type="url" placeholder="Внеси линк" name="" id="linkedin" class="form-control shadow-none" />
+											</div>
+
+											<div class="form-group">
+												<label for="email">E-mail</label>
+												<input type="email" placeholder="Внеси е-mail" name="" id="email" class="form-control shadow-none" />
+											</div>
+											
+											<div class="form-group">
+												<label for="telephone">Телефонски број</label>
+												<input type="number" placeholder="Внеси телефонски број" name="" id="telephone" class="form-control shadow-none" />
+											</div>
+										</form>
+
+										<button type="submit" class="modal-button">Испрати</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- guests section ------------------------------------->
+		
+
+
+		
+
+
+
+		<div class="row" id="footer">
+			<div class="col-lg-8 offset-lg-2 footer-col">
+				<div class="row">
+					<div class="col-lg-3 col-10 socials-div d-flex flex-column justify-content-between">
+						<div>
+							<img src="images/Logos/Creative Hub Logo variations/Creativehub_logo_Footer.png" />
+
+							<div class="my-3 footer-hr"></div>
+
+							<div class="mb-3 d-flex justify-content-between footer-socials">
+								<a href="#"><img src="images/Icons_Vectors/Footer/facebook.svg" /></a>
+								<a href="#"><img src="images/Icons_Vectors/Footer/Linked In.svg" /></a>
+								<a href="#"><img src="images/Icons_Vectors/Footer/Instagram.svg" /></a>
+								<a href="#"><img src="images/Icons_Vectors/Footer/pinterest.svg" /></a>
+							</div>
+
+							<p>Стекни знаење, поврзи се и најди ја твојата идеална кареирна насока.</p>
+						</div>
+						
+
+						<div class="dropdown footer-dropdown mb-3">
+						  <button class="btn shadow-none p-0" id="dropdownMenuButton" data-toggle="dropdown">
+						    Македонија <img class="ml-1" src="images/Icons_Vectors/Footer/dropdown.svg" />
+						  </button>
+						  <div class="dropdown-menu rounded-0 mt-0 p-0">
+						    <a class="dropdown-item pl-1" href="#">Option 1</a>
+						    <a class="dropdown-item pl-1" href="#">Option 2</a>
+						  </div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-3 col-6 m-lg-0 my-3 footer-list">
+						<h5 class="mb-3">Академии</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Дигитален маркетинг</a></li>
+							<li><a href="#">Графички дизајн</a></li>
+							<li><a href="#">Човечки ресурси</a></li>
+							<li><a href="#">UX/UI дизајн</a></li>
+							<li><a href="#">Front-End</a></li>
+							<li><a href="#">Data-Science</a></li>
+							<li><a href="#">Java</a></li>
+						</ul>
+					</div>
+
+
+					<div class="col-lg-3 col-6 m-lg-0 my-3 footer-list">
+						<h5 class="mb-3">Кариера</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Hiring platform</a></li>
+							<li><a href="#">Нашите студенти</a></li>
+							<li><a href="#">Хакатони</a></li>
+							<li><a href="#">UX/UI Quests</a></li>
+						</ul>
+					</div>
+
+
+					<div class="col-lg-3 footer-list">
+						<h5 class="mb-3">Контакт</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">contact@creativehub.mk</a></li>
+							<li><a href="#">+389 70 927 756</a></li>
+							<li class="d-lg-none d-block"><a href="#">+389 72 305 582</a></li>
+						</ul>
+
+						<a href="#hero"><img class="arrow-top" src="images/Icons_Vectors/Footer/Scroll to top.svg" /></a>
+					</div>
+				</div>
+
+				<div class="my-3 footer-hr"></div>
+
+				
+				<div class="footer-bottom d-lg-flex justify-content-between">
+					<p>© Copyright 2022 Creative Hub</p>
+
+					<div>
+						<a class="float-none float-lg-left mr-lg-4 mr-0" href="#"><p>Политика за приватност</p></a>
+						<a class="float-none float-lg-right" href="#"><p>Општи правила и услови</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!------------------------------- footer section ------------------------------------->
+	</div>	
+<!------------------------------- container-fluid end ------------------------------------->
+</body>
+</html>	
